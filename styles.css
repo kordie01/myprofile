@@ -1,0 +1,50 @@
+body{
+	background-color: black;
+	margin:0;
+}
+
+.content{
+	font-size:40px;
+	font-style: italic;
+	font-family: sans-serif;
+	color: gold;
+	position: absolute;
+	right: 0;
+	width: 50%;
+	text-align: center;
+	top: 120px;
+	padding: 60px;
+}
+
+img{
+	display: flex;
+	border-radius: 10px;
+	width: 40%;
+	justify-content: left;
+	margin-top: 50px;
+}
+
+header{
+	top: 0;
+	padding: 10px 10px;
+	box-sizing: border-box;
+	background-color: hsl(180,100%,25%);
+	height: 50px;
+	border-bottom: 4px solid white;
+}
+
+a {
+ 	color: gold;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 25px;
+	display: inline;
+	justify-content: space-between;
+	align-items: centre;
+	padding: 115px;
+}
+
+a:hover {
+ 	color: white;
+}
+
